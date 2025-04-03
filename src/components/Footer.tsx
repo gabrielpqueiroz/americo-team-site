@@ -1,5 +1,5 @@
 
-import { Instagram, Mail, MapPin, Phone } from "lucide-react";
+import { Instagram, Facebook, Mail, MapPin, Phone, MessageSquare } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -15,8 +15,27 @@ const Footer = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-red-600 transition-colors"
+                aria-label="Instagram"
               >
                 <Instagram size={20} />
+              </a>
+              <a 
+                href="https://www.facebook.com/americoteambjj" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-red-600 transition-colors"
+                aria-label="Facebook"
+              >
+                <Facebook size={20} />
+              </a>
+              <a 
+                href="https://api.whatsapp.com/send/?phone=5545999774040&text&type=phone_number&app_absent=0" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-red-600 transition-colors"
+                aria-label="WhatsApp"
+              >
+                <MessageSquare size={20} />
               </a>
             </div>
           </div>
@@ -26,11 +45,11 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center">
                 <MapPin size={18} className="mr-2" />
-                <span>Foz do Iguaçu, PR</span>
+                <span>Av. José Maria de Brito, 1399 - Jardim das Flores, Foz do Iguaçu - PR</span>
               </div>
               <div className="flex items-center">
                 <Phone size={18} className="mr-2" />
-                <span>(45) 99999-9999</span>
+                <span>(45) 99977-4040</span>
               </div>
               <div className="flex items-center">
                 <Mail size={18} className="mr-2" />

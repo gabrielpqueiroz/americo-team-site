@@ -18,9 +18,13 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent pointer-events-none"></div>
       
       <div className="container mx-auto px-4 relative z-10 flex flex-col items-center text-center">
-        <h1 className="text-5xl md:text-7xl font-bold mb-20 bg-gradient-to-r from-red-500 via-red-600 to-red-700 bg-clip-text text-transparent">
+        <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-red-500 via-red-600 to-red-700 bg-clip-text text-transparent">
           AMÉRICO TEAM BJJ
         </h1>
+        
+        <p className="text-xl md:text-2xl text-white mb-16 max-w-xl">
+          Transforme sua vida através do Jiu-Jitsu
+        </p>
         
         <div className={`${isMobile ? 'w-full' : 'w-auto'} mt-auto`}>
           <a 

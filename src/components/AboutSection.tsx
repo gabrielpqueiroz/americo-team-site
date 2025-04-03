@@ -20,7 +20,7 @@ const AboutSection = () => {
             </h2>
             
             <p className="text-gray-800 mb-6">
-              A <span className="font-bold">Américo Team</span> é uma academia de Brazilian Jiu-Jitsu fundada e liderada pelo Mestre Américo, faixa preta com mais de 15 anos de experiência no ensino desta arte marcial.
+              A <span className="font-bold">Américo Team</span> é uma academia de Brazilian Jiu-Jitsu fundada e liderada pelo Mestre Américo, faixa preta com mais de 10 anos de experiência no ensino desta arte marcial.
             </p>
             
             <p className="text-gray-800 mb-6">

@@ -1,28 +1,28 @@
 
 const galleryImages = [
   {
-    url: "https://rrlaserfoz.b-cdn.net/d1a5490b-ec4a-4310-b0b8-d6fcb303238a.png",
+    url: "https://rrlaserfoz.b-cdn.net/WhatsApp%20Image%202025-03-31%20at%2021.02.13.jpeg",
     alt: "Conquistas de alunos em competição com Professor Américo"
   },
   {
-    url: "https://rrlaserfoz.b-cdn.net/3339aa3c-feb4-4b64-bf98-1f1e6e495e14.png",
-    alt: "Professor Américo com Kimono"
+    url: "https://rrlaserfoz.b-cdn.net/WhatsApp%20Image%202025-01-18%20at%2018.38.17.jpeg",
+    alt: "Graduação de aluna"
   },
   {
-    url: "https://rrlaserfoz.b-cdn.net/496f3176-5dd5-4101-b2ee-9b065236e951.png",
-    alt: "Oficina de defesa pessoal feminina pela Américo Team na Itaipu"
+    url: "https://rrlaserfoz.b-cdn.net/WhatsApp%20Image%202025-03-21%20at%2016.11.04.jpeg",
+    alt: "Oficina de defesa pessoal feminina na Itaipu"
   },
   {
-    url: "https://rrlaserfoz.b-cdn.net/c8f84b65-b470-4363-bcbf-0583a06e5a4e.png",
+    url: "https://rrlaserfoz.b-cdn.net/WhatsApp%20Image%202025-04-02%20at%2021.47.12.jpeg",
     alt: "Treino na Américo Team BJJ"
   },
   {
-    url: "https://rrlaserfoz.b-cdn.net/29b73f95-154d-47ec-b5a2-53f8730e28d6.png",
+    url: "https://rrlaserfoz.b-cdn.net/13912bb4-bca2-41dd-be6f-2ca92b5d3830.JPG",
     alt: "Alunos em treinamento"
   },
   {
-    url: "https://rrlaserfoz.b-cdn.net/6bd3e83c-c319-44be-b364-85681c909ec1.png",
-    alt: "Evento de graduação na Américo Team"
+    url: "https://rrlaserfoz.b-cdn.net/b7e623ab-0cc4-4c25-a8ae-2209d4eed772.JPG",
+    alt: "Instrução pelo professor Américo"
   }
 ];
 
