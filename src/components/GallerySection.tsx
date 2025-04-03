@@ -1,41 +1,41 @@
 
 const galleryImages = [
   {
-    url: "https://images.unsplash.com/photo-1617196701537-7329482cc9fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGJyYXppbGlhbiUyMGppdSUyMGppdHN1fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60",
-    alt: "Treino de jiu-jitsu na Américo Team"
+    url: "/lovable-uploads/d1a5490b-ec4a-4310-b0b8-d6fcb303238a.png",
+    alt: "Equipe Américo Team reunida após treino"
   },
   {
-    url: "https://images.unsplash.com/photo-1615118265620-d8decf628275?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJyYXppbGlhbiUyMGppdSUyMGppdHN1fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60",
-    alt: "Competidor da Américo Team"
+    url: "/lovable-uploads/3339aa3c-feb4-4b64-bf98-1f1e6e495e14.png",
+    alt: "Professor Américo em uniforma de treino"
   },
   {
-    url: "https://images.unsplash.com/photo-1618518532659-f61f9dbb8db6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aml1JTIwaml0c3V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
-    alt: "Treino técnico de BJJ"
+    url: "/lovable-uploads/496f3176-5dd5-4101-b2ee-9b065236e951.png",
+    alt: "Oficina de Defesa Pessoal Feminina na Américo Team"
   },
   {
-    url: "https://images.unsplash.com/photo-1601588462477-e76b16de79f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fG1hcnRpYWwlMjBhcnRzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60",
-    alt: "Alunos da Américo Team em treino"
+    url: "/lovable-uploads/76b55fbe-275b-4512-aceb-b32165a51304.png",
+    alt: "Equipe de competição com Professor Américo"
   },
   {
-    url: "https://images.unsplash.com/photo-1574144113084-b6f450cc5e0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fG1hcnRpYWwlMjBhcnRzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60",
-    alt: "Aquecimento na academia Américo Team"
+    url: "/lovable-uploads/db6ced10-829a-4b06-8f89-cfdbb29af3dc.png",
+    alt: "Alunos graduados da Américo Team"
   },
   {
-    url: "https://images.unsplash.com/photo-1599586120429-48281b6f0ece?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fG1hcnRpYWwlMjBhcnRzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60",
-    alt: "Aula de Jiu-Jitsu na Américo Team"
+    url: "/lovable-uploads/008a50c2-6f24-416f-91e1-8575a5a5ae6a.png",
+    alt: "Conquistas em competição com Professor Américo"
   }
 ];
 
 const GallerySection = () => {
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 md:py-24 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Nossa Academia
           </h2>
           <p className="text-gray-700 max-w-3xl mx-auto">
-            Conheça nosso espaço e ambiente de treino através dessas imagens.
+            Conheça nossa equipe e o ambiente de treino através dessas imagens.
           </p>
         </div>
         
