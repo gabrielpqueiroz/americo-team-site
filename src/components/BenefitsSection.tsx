@@ -65,7 +65,7 @@ const BenefitsSection = () => {
         
         <div className="mt-12 text-center">
           <a 
-            href="https://wa.me/+5500000000000" 
+            href="https://api.whatsapp.com/send/?phone=5545999774040&text&type=phone_number&app_absent=0" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-md transition-colors duration-300 text-lg font-semibold"

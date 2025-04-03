@@ -59,7 +59,7 @@ const ScheduleSection = () => {
             Horários de Aulas
           </h2>
           <p className="text-gray-700 max-w-3xl mx-auto">
-            Oferecemos horários flexíveis para atender a diferentes rotinas. Encontre o melhor horário para você.
+            Segunda e quarta 19h-20h30 e sábado das 17h-18h30. Venha treinar conosco!
           </p>
         </div>
         

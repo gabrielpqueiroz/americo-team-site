@@ -23,12 +23,9 @@ const Navbar = () => {
     };
   }, []);
 
-  const opacity = Math.min(0.9, Math.max(0.7, scrollPosition / 500));
-
   return (
     <nav 
-      className={`fixed top-0 left-0 right-0 z-50 shadow-md transition-all duration-300`}
-      style={{ backgroundColor: `rgba(0, 0, 0, ${opacity})`, backdropFilter: 'blur(8px)' }}
+      className={`fixed top-0 left-0 right-0 z-50 shadow-md transition-all duration-300 bg-black`}
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
@@ -95,7 +92,7 @@ const Navbar = () => {
           </button>
         </div>
         
-        <div className="flex flex-col items-center space-y-4 text-lg">
+        <div className="flex flex-col items-center space-y-4 text-lg text-white">
           <a href="#inicio" onClick={toggleMenu} className="hover:text-red-600 transition-colors duration-300">Início</a>
           <a href="#sobre" onClick={toggleMenu} className="hover:text-red-600 transition-colors duration-300">Sobre</a>
           <a href="#beneficios" onClick={toggleMenu} className="hover:text-red-600 transition-colors duration-300">Benefícios</a>
