@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { Menu, X, Instagram, MessageSquare } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -29,7 +30,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
             <img 
-              src="https://rrlaserfoz.b-cdn.net/americo%20team%20fundo%20transparente%20new.png" 
+              src="https://rrlaserfoz.b-cdn.net/Design%20sem%20nome%20(18).png" 
               alt="Américo Team Logo" 
               className="h-16 object-contain" 
             />
@@ -82,7 +83,7 @@ const Navbar = () => {
       )}>
         <div className="flex justify-between items-center mb-6">
           <img 
-            src="https://rrlaserfoz.b-cdn.net/americo%20team%20fundo%20transparente%20new.png" 
+            src="https://rrlaserfoz.b-cdn.net/Design%20sem%20nome%20(18).png" 
             alt="Américo Team Logo" 
             className="h-12 object-contain" 
           />
