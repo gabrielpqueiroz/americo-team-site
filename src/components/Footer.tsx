@@ -1,0 +1,60 @@
+
+import { Instagram, Mail, MapPin, Phone } from "lucide-react";
+
+const Footer = () => {
+  return (
+    <footer className="bg-black text-white py-10">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h3 className="text-xl font-bold mb-4">Américo Team BJJ</h3>
+            <p className="mb-4">Academia de Brazilian Jiu-Jitsu em Foz do Iguaçu, liderada pelo Mestre Américo, faixa preta.</p>
+            <div className="flex items-center space-x-4">
+              <a 
+                href="https://www.instagram.com/americoteambjj/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-red-600 transition-colors"
+              >
+                <Instagram size={20} />
+              </a>
+            </div>
+          </div>
+          
+          <div>
+            <h3 className="text-xl font-bold mb-4">Contato</h3>
+            <div className="space-y-2">
+              <div className="flex items-center">
+                <MapPin size={18} className="mr-2" />
+                <span>Foz do Iguaçu, PR</span>
+              </div>
+              <div className="flex items-center">
+                <Phone size={18} className="mr-2" />
+                <span>(45) 99999-9999</span>
+              </div>
+              <div className="flex items-center">
+                <Mail size={18} className="mr-2" />
+                <span>contato@americoteam.com.br</span>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <h3 className="text-xl font-bold mb-4">Horários</h3>
+            <div className="space-y-2">
+              <p>Segunda a Sexta: 7h às 22h</p>
+              <p>Sábado: 9h às 13h</p>
+              <p>Domingo: Fechado</p>
+            </div>
+          </div>
+        </div>
+        
+        <div className="border-t border-gray-800 mt-8 pt-8 text-center">
+          <p>&copy; {new Date().getFullYear()} Américo Team BJJ. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
