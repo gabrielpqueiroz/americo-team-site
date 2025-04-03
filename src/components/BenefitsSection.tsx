@@ -1,5 +1,5 @@
 
-import { Brain, Heart, Shield, Dumbbell, Trophy, UserPlus } from "lucide-react";
+import { Brain, Heart, Shield, Dumbbell, Trophy, UserPlus, ArrowRight } from "lucide-react";
 
 const benefits = [
   {
