@@ -142,3 +142,45 @@
   object-fit: cover;
   object-position: center;
 }
+
+/* Adicionando animações modernas */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Estilos para cards de preço */
+.price-card {
+  @apply bg-gradient-to-br from-white to-gray-100 rounded-xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300;
+}
+
+.price-card-header {
+  @apply text-xl font-bold mb-4 pb-2 border-b border-gray-200;
+}
+
+.price-card-price {
+  @apply text-3xl font-bold mb-4;
+}
+
+/* Melhorando efeitos de hover */
+.hover-grow {
+  @apply transition-transform duration-300 hover:scale-105;
+}
+
+.hover-glow {
+  @apply transition-shadow duration-300;
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 20px rgba(220, 38, 38, 0.3);
+}

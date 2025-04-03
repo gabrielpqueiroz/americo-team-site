@@ -3,19 +3,19 @@ import { Shield, Award, Users } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section id="sobre" className="py-16 md:py-24 bg-white">
+    <section id="sobre" className="py-16 md:py-24 bg-gradient-to-b from-white to-gray-100">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
             <img 
-              src="https://images.unsplash.com/photo-1625374929847-32d7018944a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGJyYXppbGlhbiUyMGppdSUyMGppdHN1fGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=80" 
-              alt="Mestre Américo ensinando Jiu-Jitsu" 
-              className="w-full h-auto rounded-lg shadow-lg"
+              src="/lovable-uploads/c8f84b65-b470-4363-bcbf-0583a06e5a4e.png" 
+              alt="Treino na Américo Team BJJ" 
+              className="w-full h-auto rounded-lg shadow-xl transform hover:scale-[1.01] transition-transform duration-300"
             />
           </div>
           
           <div className="md:w-1/2">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-black">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
               Quem Somos
             </h2>
             
@@ -29,7 +29,7 @@ const AboutSection = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
               <div className="flex flex-col items-center text-center">
-                <div className="bg-red-600 p-3 rounded-full mb-4">
+                <div className="bg-gradient-to-r from-red-600 to-red-700 p-3 rounded-full mb-4 shadow-red">
                   <Shield className="text-white w-6 h-6" />
                 </div>
                 <h3 className="font-bold text-lg mb-2">Defesa Pessoal</h3>
@@ -37,7 +37,7 @@ const AboutSection = () => {
               </div>
               
               <div className="flex flex-col items-center text-center">
-                <div className="bg-red-600 p-3 rounded-full mb-4">
+                <div className="bg-gradient-to-r from-red-600 to-red-700 p-3 rounded-full mb-4 shadow-red">
                   <Award className="text-white w-6 h-6" />
                 </div>
                 <h3 className="font-bold text-lg mb-2">Competição</h3>
@@ -45,12 +45,18 @@ const AboutSection = () => {
               </div>
               
               <div className="flex flex-col items-center text-center">
-                <div className="bg-red-600 p-3 rounded-full mb-4">
+                <div className="bg-gradient-to-r from-red-600 to-red-700 p-3 rounded-full mb-4 shadow-red">
                   <Users className="text-white w-6 h-6" />
                 </div>
                 <h3 className="font-bold text-lg mb-2">Comunidade</h3>
                 <p className="text-gray-700">Ambiente acolhedor e família unida</p>
               </div>
+            </div>
+            
+            <div className="mt-8 bg-gradient-to-r from-gray-100 to-gray-200 p-4 rounded-lg border border-gray-300">
+              <p className="font-medium text-gray-700 mb-1">➡️ PROF. FILIADO CBJJ/IBJJF MATR. 517406</p>
+              <p className="font-medium text-gray-700 mb-1">➡️ INSTRUTOR DE DEFESA PESSOAL CREDENCIADO POLÍCIA FEDERAL</p>
+              <p className="font-medium text-gray-700">➡️ AMBIENTE CLIMATIZADO</p>
             </div>
           </div>
         </div>

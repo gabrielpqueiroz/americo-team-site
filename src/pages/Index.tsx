@@ -29,10 +29,10 @@ const Index = () => {
       
       {/* WhatsApp Floating Button */}
       <a 
-        href="https://wa.me/+5500000000000" 
+        href="https://api.whatsapp.com/send/?phone=5545999774040&text&type=phone_number&app_absent=0" 
         target="_blank" 
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg z-50 flex items-center justify-center transition-all duration-300 hover:scale-110"
+        className="fixed bottom-6 right-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white p-4 rounded-full shadow-lg z-50 flex items-center justify-center transition-all duration-300 hover:scale-110"
         aria-label="Contact via WhatsApp"
       >
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="white" viewBox="0 0 24 24">

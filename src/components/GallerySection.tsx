@@ -2,27 +2,27 @@
 const galleryImages = [
   {
     url: "/lovable-uploads/d1a5490b-ec4a-4310-b0b8-d6fcb303238a.png",
-    alt: "Equipe Américo Team reunida após treino"
+    alt: "Conquistas de alunos em competição com Professor Américo"
   },
   {
     url: "/lovable-uploads/3339aa3c-feb4-4b64-bf98-1f1e6e495e14.png",
-    alt: "Professor Américo em uniforma de treino"
+    alt: "Professor Américo com Kimono"
   },
   {
     url: "/lovable-uploads/496f3176-5dd5-4101-b2ee-9b065236e951.png",
-    alt: "Oficina de Defesa Pessoal Feminina na Américo Team"
+    alt: "Oficina de defesa pessoal feminina pela Américo Team na Itaipu"
   },
   {
-    url: "/lovable-uploads/76b55fbe-275b-4512-aceb-b32165a51304.png",
-    alt: "Equipe de competição com Professor Américo"
+    url: "/lovable-uploads/c8f84b65-b470-4363-bcbf-0583a06e5a4e.png",
+    alt: "Treino na Américo Team BJJ"
   },
   {
-    url: "/lovable-uploads/db6ced10-829a-4b06-8f89-cfdbb29af3dc.png",
-    alt: "Alunos graduados da Américo Team"
+    url: "/lovable-uploads/29b73f95-154d-47ec-b5a2-53f8730e28d6.png",
+    alt: "Alunos em treinamento"
   },
   {
-    url: "/lovable-uploads/008a50c2-6f24-416f-91e1-8575a5a5ae6a.png",
-    alt: "Conquistas em competição com Professor Américo"
+    url: "/lovable-uploads/6bd3e83c-c319-44be-b364-85681c909ec1.png",
+    alt: "Evento de graduação na Américo Team"
   }
 ];
 
@@ -64,7 +64,7 @@ const GallerySection = () => {
             href="https://www.instagram.com/americoteambjj/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="inline-flex items-center space-x-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-6 py-3 rounded-md transition-colors duration-300 shadow-lg"
+            className="inline-flex items-center space-x-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-6 py-3 rounded-md transition-colors duration-300 shadow-lg transform hover:scale-105"
           >
             <span>Veja mais no nosso Instagram</span>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
