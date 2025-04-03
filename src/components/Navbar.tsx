@@ -1,7 +1,5 @@
-
 import { useState, useEffect } from "react";
 import { Menu, X, Instagram, MessageSquare } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const Navbar = () => {
@@ -30,10 +28,13 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
-            <img src="/lovable-uploads/1b389b33-4044-480b-9e63-dd64e7e89ab6.png" alt="Américo Team Logo" className="h-16" />
+            <img 
+              src="https://rrlaserfoz.b-cdn.net/Americo%20team%20fundo%20transparente.png" 
+              alt="Américo Team Logo" 
+              className="h-16 object-contain" 
+            />
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8 text-white">
             <a href="#inicio" className="hover:text-red-600 transition-colors duration-300">Início</a>
             <a href="#sobre" className="hover:text-red-600 transition-colors duration-300">Sobre</a>
@@ -63,7 +64,6 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
@@ -76,13 +76,16 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
       <div className={cn(
         "fixed top-0 left-0 right-0 bg-black bg-opacity-95 py-4 px-4 transition-all duration-300 md:hidden shadow-lg",
         isMenuOpen ? "h-auto opacity-100" : "h-0 opacity-0 pointer-events-none"
       )}>
         <div className="flex justify-between items-center mb-6">
-          <img src="/lovable-uploads/1b389b33-4044-480b-9e63-dd64e7e89ab6.png" alt="Américo Team Logo" className="h-12" />
+          <img 
+            src="https://rrlaserfoz.b-cdn.net/Americo%20team%20fundo%20transparente.png" 
+            alt="Américo Team Logo" 
+            className="h-12 object-contain" 
+          />
           <button
             onClick={toggleMenu}
             className="text-white p-2 focus:outline-none"
