@@ -27,7 +27,7 @@ const CTASection = () => {
           
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <a 
-              href="https://wa.me/+5500000000000" 
+              href="https://api.whatsapp.com/send/?phone=5545999774040&text&type=phone_number&app_absent=0" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-md flex items-center justify-center space-x-3 transition-colors duration-300 text-lg font-semibold"
@@ -43,7 +43,7 @@ const CTASection = () => {
             <ul className="text-left space-y-2">
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-red-600 rounded-full mt-2 mr-3"></div>
-                <span>Instrutor faixa preta com mais de 15 anos de experiência</span>
+                <span>Instrutor faixa preta com mais de 10 anos de experiência</span>
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-red-600 rounded-full mt-2 mr-3"></div>
@@ -52,10 +52,6 @@ const CTASection = () => {
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-red-600 rounded-full mt-2 mr-3"></div>
                 <span>Ambiente familiar e acolhedor para todos</span>
-              </li>
-              <li className="flex items-start">
-                <div className="w-2 h-2 bg-red-600 rounded-full mt-2 mr-3"></div>
-                <span>Turmas especiais para crianças e mulheres</span>
               </li>
               <li className="flex items-start">
                 <div className="w-2 h-2 bg-red-600 rounded-full mt-2 mr-3"></div>

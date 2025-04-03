@@ -45,7 +45,7 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center">
                 <MapPin size={18} className="mr-2" />
-                <span>Av. José Maria de Brito, 1399 - Jardim das Flores, Foz do Iguaçu - PR</span>
+                <span>Rua Tibagi 1475, Campos do Iguaçu, Foz do Iguaçu - 85857000</span>
               </div>
               <div className="flex items-center">
                 <Phone size={18} className="mr-2" />
@@ -61,8 +61,8 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Horários</h3>
             <div className="space-y-2">
-              <p>Segunda a Sexta: 7h às 22h</p>
-              <p>Sábado: 9h às 13h</p>
+              <p>Segunda e Quarta: 19h às 20h30</p>
+              <p>Sábado: 17h às 18h30</p>
               <p>Domingo: Fechado</p>
             </div>
           </div>
