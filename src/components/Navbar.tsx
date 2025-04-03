@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
             <img 
-              src="https://rrlaserfoz.b-cdn.net/Americo%20team%20fundo%20transparente.png" 
+              src="https://rrlaserfoz.b-cdn.net/americo%20team%20fundo%20transparente%20new.png" 
               alt="Américo Team Logo" 
               className="h-16 object-contain" 
             />
@@ -82,7 +82,7 @@ const Navbar = () => {
       )}>
         <div className="flex justify-between items-center mb-6">
           <img 
-            src="https://rrlaserfoz.b-cdn.net/Americo%20team%20fundo%20transparente.png" 
+            src="https://rrlaserfoz.b-cdn.net/americo%20team%20fundo%20transparente%20new.png" 
             alt="Américo Team Logo" 
             className="h-12 object-contain" 
           />
