@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from "react";
-import { Menu, X, Instagram, MessageSquare, Facebook } from "lucide-react";
+import { Menu, X, Instagram, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -30,11 +30,11 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
-            <img src="/lovable-uploads/ac8eb216-a021-4472-a22e-122b085683ba.png" alt="Américo Team Logo" className="h-16" />
+            <img src="/lovable-uploads/1b389b33-4044-480b-9e63-dd64e7e89ab6.png" alt="Américo Team Logo" className="h-16" />
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8 text-white">
             <a href="#inicio" className="hover:text-red-600 transition-colors duration-300">Início</a>
             <a href="#sobre" className="hover:text-red-600 transition-colors duration-300">Sobre</a>
             <a href="#beneficios" className="hover:text-red-600 transition-colors duration-300">Benefícios</a>
@@ -48,7 +48,7 @@ const Navbar = () => {
                 className="hover:text-red-600 transition-colors duration-300"
                 aria-label="Instagram"
               >
-                <Instagram size={20} />
+                <Instagram size={20} className="text-white" />
               </a>
               <a 
                 href="https://api.whatsapp.com/send/?phone=5545999774040&text&type=phone_number&app_absent=0" 
@@ -82,7 +82,7 @@ const Navbar = () => {
         isMenuOpen ? "h-auto opacity-100" : "h-0 opacity-0 pointer-events-none"
       )}>
         <div className="flex justify-between items-center mb-6">
-          <img src="/lovable-uploads/ac8eb216-a021-4472-a22e-122b085683ba.png" alt="Américo Team Logo" className="h-12" />
+          <img src="/lovable-uploads/1b389b33-4044-480b-9e63-dd64e7e89ab6.png" alt="Américo Team Logo" className="h-12" />
           <button
             onClick={toggleMenu}
             className="text-white p-2 focus:outline-none"
@@ -103,17 +103,9 @@ const Navbar = () => {
               href="https://www.instagram.com/americoteambjj/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hover:text-red-600 transition-colors duration-300 p-2"
+              className="hover:text-red-600 transition-colors duration-300 p-2 text-white"
             >
               <Instagram size={24} />
-            </a>
-            <a 
-              href="#" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="hover:text-red-600 transition-colors duration-300 p-2"
-            >
-              <Facebook size={24} />
             </a>
             <a 
               href="https://api.whatsapp.com/send/?phone=5545999774040&text&type=phone_number&app_absent=0" 
