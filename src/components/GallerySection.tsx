@@ -1,27 +1,27 @@
 
 const galleryImages = [
   {
-    url: "/lovable-uploads/d1a5490b-ec4a-4310-b0b8-d6fcb303238a.png",
+    url: "https://rrlaserfoz.b-cdn.net/d1a5490b-ec4a-4310-b0b8-d6fcb303238a.png",
     alt: "Conquistas de alunos em competição com Professor Américo"
   },
   {
-    url: "/lovable-uploads/3339aa3c-feb4-4b64-bf98-1f1e6e495e14.png",
+    url: "https://rrlaserfoz.b-cdn.net/3339aa3c-feb4-4b64-bf98-1f1e6e495e14.png",
     alt: "Professor Américo com Kimono"
   },
   {
-    url: "/lovable-uploads/496f3176-5dd5-4101-b2ee-9b065236e951.png",
+    url: "https://rrlaserfoz.b-cdn.net/496f3176-5dd5-4101-b2ee-9b065236e951.png",
     alt: "Oficina de defesa pessoal feminina pela Américo Team na Itaipu"
   },
   {
-    url: "/lovable-uploads/c8f84b65-b470-4363-bcbf-0583a06e5a4e.png",
+    url: "https://rrlaserfoz.b-cdn.net/c8f84b65-b470-4363-bcbf-0583a06e5a4e.png",
     alt: "Treino na Américo Team BJJ"
   },
   {
-    url: "/lovable-uploads/29b73f95-154d-47ec-b5a2-53f8730e28d6.png",
+    url: "https://rrlaserfoz.b-cdn.net/29b73f95-154d-47ec-b5a2-53f8730e28d6.png",
     alt: "Alunos em treinamento"
   },
   {
-    url: "/lovable-uploads/6bd3e83c-c319-44be-b364-85681c909ec1.png",
+    url: "https://rrlaserfoz.b-cdn.net/6bd3e83c-c319-44be-b364-85681c909ec1.png",
     alt: "Evento de graduação na Américo Team"
   }
 ];

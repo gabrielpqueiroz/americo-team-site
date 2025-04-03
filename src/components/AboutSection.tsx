@@ -8,7 +8,7 @@ const AboutSection = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
             <img 
-              src="/lovable-uploads/c8f84b65-b470-4363-bcbf-0583a06e5a4e.png" 
+              src="https://rrlaserfoz.b-cdn.net/638848d6-cecb-4a21-a3e8-880306144d8a.JPG" 
               alt="Treino na Américo Team BJJ" 
               className="w-full h-auto rounded-lg shadow-xl transform hover:scale-[1.01] transition-transform duration-300"
             />
@@ -54,9 +54,9 @@ const AboutSection = () => {
             </div>
             
             <div className="mt-8 bg-gradient-to-r from-gray-100 to-gray-200 p-4 rounded-lg border border-gray-300">
-              <p className="font-medium text-gray-700 mb-1">➡️ PROF. FILIADO CBJJ/IBJJF MATR. 517406</p>
-              <p className="font-medium text-gray-700 mb-1">➡️ INSTRUTOR DE DEFESA PESSOAL CREDENCIADO POLÍCIA FEDERAL</p>
-              <p className="font-medium text-gray-700">➡️ AMBIENTE CLIMATIZADO</p>
+              <p className="font-medium text-gray-700 mb-1">PROF. FILIADO CBJJ/IBJJF MATR. 517406</p>
+              <p className="font-medium text-gray-700 mb-1">INSTRUTOR DE DEFESA PESSOAL CREDENCIADO POLÍCIA FEDERAL</p>
+              <p className="font-medium text-gray-700">AMBIENTE CLIMATIZADO</p>
             </div>
           </div>
         </div>
