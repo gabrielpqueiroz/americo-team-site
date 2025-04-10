@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent pointer-events-none"></div>
       
       <div className="container mx-auto px-4 relative z-10 flex flex-col items-center text-center">
-        <h1 className="text-5xl md:text-7xl font-bold mb-4 text-white">
+        <h1 className="text-5xl md:text-7xl font-extrabold mb-4 text-white"> {/* Changed from font-bold to font-extrabold */}
           AMÉRICO TEAM BJJ
         </h1>
         

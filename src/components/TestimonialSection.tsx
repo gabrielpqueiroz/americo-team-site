@@ -4,7 +4,7 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     name: "Carlos Silva",
-    role: "Aluno há 3 anos",
+    role: "Aluno há 1 ano", // Changed from "Aluno há 3 anos"
     content: "O Jiu-Jitsu na Américo Team mudou minha vida. Além de melhorar meu condicionamento físico, ganhei confiança e fiz amigos que considero parte da minha família.",
     stars: 5
   },
